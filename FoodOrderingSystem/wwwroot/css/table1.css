@@ -1,0 +1,65 @@
+.table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.7rem;
+    width: 80rem;
+    box-shadow: 0 0 10px 0 #333;
+    margin-top: 5rem;
+    border-radius: .5rem;
+  }
+  .tablehead{
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+  }
+  
+.table th,td {
+    padding: 8px;
+    text-align: left;
+    font-size: 20px;
+    font-family: cursive;
+  }
+
+
+.price{
+  font-family: cursive;
+  font-size: 30px;
+  margin-left: 300px;
+}
+
+.heading-box {
+ 
+  
+  display: inline-block;
+  min-width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  
+}
+
+select {
+  font-size: 16px;
+  font-family: cursive;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  
+}
+
+option {
+  font-size: 16px;
+  background-color: #f5f5f5;
+}
+
+select option:checked {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.option{
+  font-size: 20px;
+}
+

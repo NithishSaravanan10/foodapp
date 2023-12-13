@@ -1,0 +1,61 @@
+#main-section{
+    width:500px;
+    height:500px;
+    border:2px solid black;
+
+}
+    .discount-offer {
+        background-color: #ffd966;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .offer-text {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+      }
+      
+      .cta-button {
+        background-color: #ff9933;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 20px;
+        margin-top: 20px;
+      }
+
+      .catchy-messages {
+        display: flex;
+        justify-content: space-between;
+        /* border:2px solid black; */
+        margin-top:3.5rem;
+      }
+      
+      .message {
+        border-radius: 1rem;
+        flex-basis: calc(33.33% - 20px);
+        background-color: #d8bebe;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .message:hover {
+        transform: translateX(3rem);
+      }
+      
+      .message h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      
+      .message p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      

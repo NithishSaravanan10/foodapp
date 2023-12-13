@@ -1,0 +1,149 @@
+@using System.Data
+@model DataTable
+
+
+<partial name="UserLayout" />
+
+ 
+
+ 
+  <a href="CartPage" class="shop" ></a>
+ <a href="CartPage" class="btn btn-success"  style="margin-top:1rem;margin-left:75rem; background-color:rgb(20, 17, 17)">Go to the cart&nbsp;&nbsp;<i  class="bi bi-bag-heart-fill bag"></i></a>  
+ @* <a asp-action="vieworders" asp-controller="Home" class="btn btn-warning" >View Orders</a> *@
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+@* @ViewBag.loginuser.UserName *@
+
+         <link rel="stylesheet" href="~/css/menu.css" aspend-versp-apion="true">
+         
+
+                  <div class="small-container1">
+                  <h2 class="Title1">Choose Your Fav</h2>
+                    <div class="row" class="card1">
+                    <div class="col-md-3 image-section1" class="card1">
+                      <img src="../Images/dess.jpg" > <br>
+                        
+                      <a href="#dessert"  class="cart1">Dessert</a>
+                      </div>
+
+
+                       
+                    <div class="col-md-3 image-section1" class="card1">
+                      <img src="../Images/naan.webp" > <br>                     
+                      <a href="#North" class="cart1">North Indian</a>
+                      </div>
+
+                       
+                    <div class="col-md-3 image-section1" >
+                      <img src="../Images/sam.jpg" >  <br>                    
+                      <a href="#South" class="cart1">South Indian</a>
+                      </div>
+
+                       
+                    <div class="col-md-3 image-section1" >
+                      <img src="../Images/sand.jpg" > <br>                       
+                      <a href="#Sandwich" class="cart1">Sandwich</a>
+                      </div>
+
+                    </div>
+                    </div>
+
+                <div class="small-container"  id="dessert"> 
+                 
+                  <h2 class="Title" >Desserts  </h2>
+                      @foreach (DataRow dataRow in Model.Rows)
+                    {
+                      if(@dataRow[2].ToString()=="Desserts")
+                      {
+                        <div class="cards">
+        
+                          <div class="col-md-4 image-section" >
+                            <img src=@dataRow[3] >    
+
+                            </div>
+                            <h4>@dataRow[0]<span class="span" >&nbsp&nbsp&nbsp<a asp-action="AddToCart" asp-controller="Home" asp-route-ItemName=@dataRow[0] asp-route-ItemPrice=@dataRow[1] class="cart"><i class="bi bi-cart-plus"></i></a></span></h4>
+                            <p>RS.@dataRow[1]</p>
+                            
+                        </div>
+              
+                      }
+                    }
+                </div>
+                <span class="text-success">@ViewData["Alert"]</span>
+
+
+                <div class="small-container" id="North"> 
+                  <h2 class="Title">North Indian</h2>
+                      @foreach (DataRow dataRow in Model.Rows)
+                    {
+                      if(@dataRow[2].ToString()=="North Indian")
+                      {
+                        <div class="cards">
+        
+                          <div class="col-md-4 image-section" >
+                            <img src=@dataRow[3] >    
+
+                            </div>
+                            <h4>@dataRow[0]<span class="span" >&nbsp&nbsp&nbsp<a asp-action="AddToCart" asp-controller="Home" asp-route-ItemName=@dataRow[0] asp-route-ItemPrice=@dataRow[1] class="cart"><i class="bi bi-cart-plus"></i></a></span></h4>
+                            <p>RS.@dataRow[1]</p>
+                
+                        </div>
+              
+                      }
+                    }
+                </div>
+
+                <div class="small-container" id="South"> 
+                  <h2 class="Title">South Indian</h2>
+                      @foreach (DataRow dataRow in Model.Rows)
+                    {
+                      if(@dataRow[2].ToString()=="South Indian")
+                      {
+                        <div class="cards">
+        
+                          <div class="col-md-4 image-section" >
+                            <img src=@dataRow[3] >    
+
+                            </div>
+                            <h4>@dataRow[0]<span class="span" >&nbsp&nbsp&nbsp<a asp-action="AddToCart" asp-controller="Home" asp-route-ItemName=@dataRow[0] asp-route-ItemPrice=@dataRow[1] class="cart"><i class="bi bi-cart-plus"></i></a></span></h4>
+                            <p>RS.@dataRow[1]</p>
+                
+                        </div>
+              
+                      }
+                    }
+                </div>
+
+                <div class="small-container" id="Sandwich"> 
+                  <h2 class="Title">Sandwich</h2>
+                      @foreach (DataRow dataRow in Model.Rows)
+                    {
+                      if(@dataRow[2].ToString()=="Sandwich")
+                      {
+                        <div class="cards">
+        
+                          <div class="col-md-4 image-section">
+                            <img src=@dataRow[3] >    
+
+                            </div>
+                            <h4>@dataRow[0]<span class="span" >&nbsp;&nbsp;&nbsp;<a asp-action="AddToCart" asp-controller="Home" asp-route-ItemName=@dataRow[0] asp-route-ItemPrice=@dataRow[1] class="cart"><i class="bi bi-cart-plus"></i></a></span></h4>
+                            <p>RS.@dataRow[1]</p>
+                
+                        </div>  
+                      }
+                    }
+                    
+                </div> 
+                
+                  
+                
+        
+
+              
+                          
+
+            

@@ -1,0 +1,45 @@
+@model dynamic
+<link rel="stylesheet" href="~/css/table.css" asp-append-version="true">
+<body>
+  <h1 class="tablehead">Your Orders</h1>
+  
+    @{
+      foreach(var orderid in Model.Orders){
+        if(@ViewBag.UserName == orderid.UserName){
+          <div >
+            @{
+              <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ItemName</th>
+                      <th scope="col">ItemPrice</th>
+                      <th scope="col">Quantity</th>
+                    </tr>
+                  </thead>
+                @{
+                  foreach(var items in Model.Details){
+                    if(items.OrderId == orderid.OrderId){                   
+                        <tbody>
+                          <tr>
+                            <th scope="row">@items.ItemName</th>
+                            <td>@items.ItemPrice</td>
+                            <td>@items.Quantity</td>
+        
+                          </tr>
+                        </tbody>               
+                    }
+                  }
+                }
+                </table>
+             }
+            
+          </div>
+         
+        }
+      }
+    }
+
+
+<a asp-action="foodPage" asp-controller="Home" class="btn btn-warning">Back To Menu</a>
+</body>
+  

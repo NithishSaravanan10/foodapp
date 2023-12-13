@@ -1,0 +1,89 @@
+@model List<Cart>
+@using System.Data
+
+ 
+<partial name="UserLayout" />
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+           <link rel="stylesheet" href="~/css/coupon.css" aspend-versp-apion="true">
+
+  <link rel="stylesheet" href="~/css/table1.css" asp-append-version="true">
+  <h1 class="tablehead">Cart Items</h1>
+ <a href="foodPage" class="btn btn-success" style="">Add items</a> 
+  <table style="width:100%" class="table">
+    <tr>
+      <th>ItemName</th>
+      <th>ItemPrice</th>
+      <th>Add Quantity</th>
+      <th>Delete</th>
+    </tr>
+
+    @{
+      int total=0;
+      foreach(var cart in Model){
+
+        Console.WriteLine(@cart.ItemName+": "+@cart.Quantity);
+
+        int a=Convert.ToInt32(@cart.ItemPrice);
+        int b=Convert.ToInt32(@cart.Quantity);
+        int c=a*b;   
+        total+=c;
+        @* total=total-Convert.ToInt32(ViewBag.discount); *@
+        <tr>
+          <td>@cart.ItemName</td>
+          <td>@c</td>
+          <td><a asp-action="UpdatePrice" asp-controller="Home" asp-route-ItemName=@cart.ItemName asp-route-Quantity=@b  asp-route-buttn="+" style="color:black"><i class="bi bi-plus-circle-fill"></i></a>
+          @b
+          <a asp-action="UpdatePrice" asp-controller="Home" asp-route-ItemName=@cart.ItemName asp-route-Quantity=@b asp-route-buttn="-" style="color:black"><i class="bi bi-dash-circle-fill"></i></a></td>
+          <td><a asp-action="DeleteCart" asp-controller="Home" asp-route-ItemName=@cart.ItemName class="btn btn-danger">Delete</a></td>
+        </tr>
+      }
+       total=total-Convert.ToInt32(ViewBag.discount);
+    }
+   
+  </table><br><br>
+  <div class="heading-box">
+ <h2 class="price" style="text-align: center; ">Total Price= @total</h2><br>
+</div><br><br>
+ <label for="select-option" class="option" style="font-family: cursive;">Choose Your Bay:</label>
+ <form method="post" asp-action="Pay" asp-controller="Home">
+    <select required name="Bay">
+      <option value="Libra1">Libra1</option>
+      <option value="Hydra">Hydra</option>
+      <option value="Corvus">Corvus</option>
+      <option value="caleum">caleum</option>
+      <option value="Libra2">Libra2</option>
+      <option value="Libra3">Libra3</option>
+      <option value="Auriga">Auriga</option>
+      <option value="Torado">Torado</option>
+       <option value="Limbus">Limbus</option>
+    </select>
+
+  
+    <!-- existing code omitted for brevity -->
+    
+    <input type="hidden" name="total" value="@total">
+    
+    
+   
+    
+    <input type="submit" value="Confirm">
+</form>
+<form method="post" asp-action="Coupon"  asp-controller="Home">
+<label for="coupon-code">CouponCode</label>
+   <input type="text" id="coupon-code" name="couponcode" class="form-control" />
+   <input type="hidden" name="total" value="@total">
+   <input type="submit" class="btn btn-primary" value="Apply Coupon">
+</form>
+</body>
+</html>

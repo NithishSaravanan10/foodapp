@@ -1,0 +1,38 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.5rem;
+	margin-bottom: 40px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.5rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn-primary {
+	background-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0062cc;
+}
+
+.btn-primary:active {
+	background-color: #005cbf;
+}

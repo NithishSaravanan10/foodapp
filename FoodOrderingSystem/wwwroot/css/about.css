@@ -1,0 +1,65 @@
+.about-us {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+
+  .button {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  /* Effects */
+  
+  .about-us h2 {
+    animation: slide-up 0.8s ease;
+  }
+  
+  .about-us p {
+    animation: slide-up 0.8s ease;
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+   
+      
+  }

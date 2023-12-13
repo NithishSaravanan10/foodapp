@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-group a {
+  display: inline-block;
+  padding: 10px;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.button-group a:hover {
+  background-color: #333;
+  color: #eee;
+}
+
+.add-menu:hover {
+  box-shadow: 0 0 5px #333;
+}
+
+.delete-menu:hover {
+  text-decoration: line-through;
+}
+
+.update-menu:hover {
+  transform: scale(1.2);
+}

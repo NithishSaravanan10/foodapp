@@ -1,0 +1,46 @@
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  } */
+
+  body{
+    background-color: #444;
+    color: white;
+  }
+  
+.table{
+    border-collapse: collapse;
+    margin:1rem auto;
+    font-size: .7rem;
+    width: 80rem;
+    box-shadow: 0 0 5px 1px #999;
+    background-color: white;
+  }
+  .tablehead{
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    
+  }
+  

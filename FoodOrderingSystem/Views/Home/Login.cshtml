@@ -1,0 +1,143 @@
+@* @model LoginUser
+
+
+<partial name="UserLayout" />
+
+
+<html lang="en">
+
+
+<img align="right" src="../Images/loginn.png" style="width:720px;height:750px;" alt="">
+<!-- Pills navs -->
+<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+  <li class="nav-item" role="presentation">
+    <br><a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab"
+       aria-controls="pills-login" style="width: 75%;" aria-selected="true">Login</a>  *@
+  @* </li><br><br><br><br><br><br> *@
+  @* <li class="nav-item" role="presentation">
+  <a class="nav-link" style="width: 30%;" asp-controller="home" asp-action="Registeration">Register</a>
+  </li> *@
+</ul>
+<!-- Pills navs -->
+
+<!-- Pills content -->
+<div class="tab-content">
+  <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+    @* <form method="post"> *@
+      @* <div class="text-center mb-3">
+      <p >Sign in with:</p>
+      <button type="button" style="width: 30%;" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+      </button>
+
+      <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-google"></i>
+      </button>
+
+      <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+      </button>
+
+      <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-github"></i>
+      </button>
+      </div>
+
+      <p class="text-center">or:</p> *@
+
+      <!-- Username input -->
+      @* <div class="form-outline mb-4">ro
+        <input type="text" required style="width: 35%;" id="loginName" asp-for="UserName" class="form-contl" />
+        <label class="form-label">UserName</label>
+      </div> <br>
+
+      <!-- Password input -->
+      <div class="form-outline mb-4">
+        <input type="password" required style="width: 35%;" class="form-control" asp-for="Password" />
+        <label class="form-label">Password</label>
+      </div> *@
+
+      @* <!-- Email input -->
+      <div class="form-outline mb-4">
+      <input type="email" class="form-control" asp-for="Email"/>
+      <label class="form-label" for="loginName">Email</label>
+      </div>
+
+      <!-- MobileNumber input -->
+      <div class="form-outline mb-4">
+      <input type="MobileNumber" class="form-control" asp-for="MobileNumber" />
+      <label class="form-label" >Password</label>
+      </div> *@
+
+      @* <!-- 2 column grid layout -->
+      <div class="row mb-6">
+        <div class="col-md-6 d-flex justify-content-center">
+          <!-- Checkbox -->
+          <div class="form-check mb-3 mb-md-0">
+            <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
+            <label class="form-check-label" for="loginCheck"> Remember me </label>
+          </div>
+        </div><br><br>
+
+        <div>
+          <!-- Simple link -->
+          <a href="#!">Forgot password?</a>
+        </div>
+      </div><br><br>
+
+      <span class="text-danger">@ViewData["Info"]</span><br><br>
+
+      <!-- Submit button -->
+      <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+      <!-- Register buttons -->
+      <div class="text-">
+        <p>Not a member? <a asp-controller="Home" style="width: 40%;" asp-action="Registeration">Register</a></p>
+      </div>
+    </form>
+
+    <span class="text-success">@ViewData["Notify"]</span>
+  </div>
+
+</div>
+<!-- Pills content --> *@
+
+
+@model LoginUser
+
+
+<partial name="UserLayout" />
+
+<link rel="stylesheet" href="~/css/login.css" aspend-versp-apion="true">
+
+<div class="login-box">
+  <h2>Login</h2>
+  <form method="post">
+    <div class="user-box">
+      <input type="text" required style="width: 55%;" id="loginName" asp-for="UserName" class="form-control" />
+        <label class="form-label">UserName</label>
+    </div>
+    <div class="user-box">
+       <input type="password" required style="width: 55%;" class="form-control" asp-for="Password" />
+        <label class="form-label">Password</label>
+    </div>
+     <span class="text-danger">@ViewData["Info"]</span><br><br>
+    @* <a href="foodPage"> *@
+    
+    <button type="submit" class="btn" >
+      <span></span>
+       <span></span>
+        <span></span>
+         <span></span>
+    Submit
+      </button>
+     
+      
+
+     <div class="text-">
+        <p>Not a member? <a asp-controller="Home" style="width: 40%; " asp-action="Registeration">Register</a></p>
+      </div>
+
+  </form>
+  <span class="text-success">@ViewData["Notify"]</span>
+</div>

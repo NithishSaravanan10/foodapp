@@ -1,0 +1,39 @@
+@model IEnumerable<FoodOrderingSystem.Models.RegisteredUsers>
+@using System.Data
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <partial name="AdminLayout" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="~/css/table.css" asp-append-version="true">
+    <h1 class="tablehead">Registered Users</h1>
+  <table class="table">
+    <tr>
+      <th>UserName</th>
+      <th>Password</th>
+      <th>Email</th>
+      <th>Mobile Number</th>
+    </tr>
+ @{
+      foreach(var registerusers in Model){
+
+    <tr>
+        <td>@registerusers.UserName</td>
+        <td>@registerusers.Password</td>
+        <td>@registerusers.Email</td>
+        <td>@registerusers.MobileNumber</td>
+    </tr>
+    }
+
+ }
+    
+</body>
+</html>
+
+

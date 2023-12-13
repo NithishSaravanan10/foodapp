@@ -1,0 +1,178 @@
+@* @model User
+
+
+<partial name="UserLayout" />
+
+</html>
+
+<form method="post">
+  <div class="text mb-3">
+    <p style="font-size: 1.0cm;" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+      style="color: aqua;">SIGNUP </p>
+    @* <button type="button" class="btn btn-link btn-floating mx-1">
+    <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+    <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+    <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+    <i class="fab fa-github"></i>
+    </button>
+    </div> *@
+
+
+    @* <img align="right" src="../Images/li1.jpg" style="width:730px;height:700px;" alt=""> *@
+    @* <style>
+      .bordered {
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        border: 1px ridge black;
+      }
+    </style>
+    <!-- Username input -->
+    <div class="form-outline mb-4" style="border: 1px;">
+      <label class="form-label" for="registerUsername">UserName</label>
+      <input type="text" required style="width: 30%;" id="registerUsername" placeholder="Ex: Foodordering123"
+        asp-for="UserName" class="form-control" />
+      <small>Atleast 6 characters needed.First letter should be capital </small><br><br>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="registerPassword">Password</label>
+      <input type="password" required style="width: 30%;" id="registerPassword" placeholder="Ex: Abcd123"
+        asp-for="Password" class="form-control" />
+      <small>Atleast 6 characters needed.First letter should be capital </small><br><br>
+    </div>
+
+    <!-- Repeat Password input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+      <input type="password" required style="width: 30%;" id="registerRepeatPassword" asp-for="RepeatPassword"
+        class="form-control" />
+    </div>
+
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <label class="form-label" for="registerEmail">Email</label>
+      <input type="email" required style="width: 30%;" id="registerEmail" placeholder="Ex: abc@gmail.com"
+        asp-for="Email" class="form-control" />
+    </div>
+
+    <!-- MobileNumber input -->
+    <div class="form-outline mb-4">
+      <label class="form-label">MobileNumber</label>
+      <input type="text" required style="width: 30%;" asp-for="MobileNumber" placeholder="Ex: 9876543210"
+        class="form-control" />
+    </div>
+
+
+
+
+    <!-- Checkbox -->
+    <div class="form-check d-flex justify-content- mb-4">
+      <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+        aria-describedby="registerCheckHelpText" />
+      <label class="form-check-label" for="registerCheck">
+        I have read and agree to the terms
+      </label>
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-3">Sign in</button>
+
+</form>
+
+<span class="text-danger">@ViewData["Notify"]</span>  *@
+
+
+
+@model User
+
+<partial name="UserLayout" />
+
+
+
+
+
+<link rel="stylesheet" href="~/css/login.css" aspend-versp-apion="true">
+
+<div class="login-box">
+  <h2>Registeration</h2>
+  <form method="post">
+    <div class="user-box">
+      
+     
+      <input type="text"  id="registerUsername" placeholder="Ex: Foodordering123"
+        asp-for="UserName" class="form-control" />
+         <label class="form-label" for="registerUsername">UserName</label>
+         <span asp-Validation-for="UserName"></span>
+     <br><br>
+    
+    </div>
+    <div class="user-box">
+       
+      <input type="password"  id="registerPassword" placeholder="Ex: Abcd123"
+        asp-for="Password" class="form-control" />
+        <label class="form-label" for="registerPassword">Password</label>
+        <span asp-Validation-for="Password"></span>
+      <br><br>
+    </div>
+
+    <div class="user-box">
+       
+      <input type="password"   id="registerRepeatPassword" asp-for="RepeatPassword"
+        class="form-control" />
+        <label class="form-label" for="registerRepeatPassword">Repeat password</label>
+    <span asp-Validation-for="RepeatPassword"></span>
+    </div>
+
+    <div class="user-box">
+    
+      <input type="email"   id="registerEmail" placeholder="Ex: abc@gmail.com"
+        asp-for="Email" class="form-control" />
+        
+         <label class="form-label" for="registerEmail">Email</label>
+         <span asp-Validation-for="Email"></span>
+    </div>
+
+    <div class="user-box">
+      
+      <input type="text"   asp-for="MobileNumber" placeholder="Ex: 9876543210"
+        class="form-control" />
+         <label class="form-label">MobileNumber</label>
+         <span asp-Validation-for="MobileNumber"></span>
+    </div>
+
+
+    
+    
+    <button type="submit" class="btn" >
+      <span></span>
+       <span></span>
+        <span></span>
+         <span></span>
+    Register
+      </button>
+     
+      <span class="text-danger">@ViewData["Notify"]</span>
+
+     
+
+  </form>
+
+</div>
+<script>
+
+  @section Scripts{
+    <partial name="_ValidationScriptsPartial"/>
+  }
+</script>

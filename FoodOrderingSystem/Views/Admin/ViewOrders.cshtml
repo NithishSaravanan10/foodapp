@@ -1,0 +1,239 @@
+@model IEnumerable<FoodOrderingSystem.Models.AdminOrders>
+@using System.Data
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <partial name="AdminLayout" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="~/css/table.css" asp-append-version="true">
+    <h1 class="tablehead">Orders</h1>
+  <table class="table">
+    <tr>
+      <th>UserName</th>
+      <th>ItemName</th>
+      <th>Quantity</th>
+      <th>ItemPrice</th>
+      <th>Total</th>
+      <th>Location</th>
+      <th>Date and Time</th>
+    </tr>
+ @{
+      foreach(var adminorders in Model){
+
+    <tr>
+        <td>@adminorders.UserName</td>
+        <td>@adminorders.ItemName</td>
+        <td>@adminorders.Quantity</td>
+        <td>@adminorders.ItemPrice</td>
+         <td>@adminorders.Total</td>
+      <td>@adminorders.Location</td>
+       <td>@adminorders.DateTime</td>
+
+
+
+    </tr>
+    }
+
+ }
+    
+</body>
+</html>
+
+@* @model IEnumerable<FoodOrderingSystem.Models.AdminOrders>
+@using System.Data
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <partial name="AdminLayout" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders</title>
+  <style>
+    /* Styles for the table */
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .table th, .table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .table th {
+      background-color: #f2f2f2;
+    }
+    .table th a {
+      text-decoration: none;
+    }
+    .table th a:hover {
+      text-decoration: underline;
+    }
+    .table th.sortable:hover {
+      cursor: pointer;
+    }
+    .table th.sortable span {
+      display: inline-block;
+      margin-left: 5px;
+    }
+    .table th.sortable.asc span:before {
+      content: "\25b2";
+    }
+    .table th.sortable.desc span:before {
+      content: "\25bc";
+    }
+  </style>
+</head>
+<body>
+  <h1>Orders</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="sortable @ViewBag.UserNameSort"><a href="@Url.Action("Index", new { sortOrder = ViewBag.UserNameSort })">UserName<span></span></a></th>
+        <th class="sortable @ViewBag.ItemNameSort"><a href="@Url.Action("Index", new { sortOrder = ViewBag.ItemNameSort })">ItemName<span></span></a></th>
+        <th>Quantity</th>
+        <th>ItemPrice</th>
+        <th>Total</th>
+        <th>Location</th>
+        <th>Date and Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach(var adminorders in Model) {
+        <tr>
+          <td>@adminorders.UserName</td>
+          <td>@adminorders.ItemName</td>
+          <td>@adminorders.Quantity</td>
+          <td>@adminorders.ItemPrice</td>
+          <td>@adminorders.Total</td>
+          <td>@adminorders.Location</td>
+          <td>@adminorders.DateTime</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</body>
+</html> *@
+@* 
+@model IEnumerable<FoodOrderingSystem.Models.AdminOrders>
+@using System.Data
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <partial name="AdminLayout" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders</title>
+  <style>
+    /* Styles for the table */
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    .table th, .table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    .table th {
+      background-color: #f2f2f2;
+    }
+    .table th a {
+      text-decoration: none;
+    }
+    .table th a:hover {
+      text-decoration: underline;
+    }
+    .table th.sortable:hover {
+      cursor: pointer;
+    }
+    .table th.sortable span {
+      display: inline-block;
+      margin-left: 5px;
+    }
+    .table th.sortable.asc span:before {
+      content: "\25b2";
+    }
+    .table th.sortable.desc span:before {
+      content: "\25bc";
+    }
+  </style>
+</head>
+<body>
+  <h1>Orders</h1>
+  
+ <form name="searchform" method="post" asp-action="Filterprofiles" asp-controller="Admin" >
+Search:
+<select id="searchtype" name="sengines" onchange="selectValue(this)" required>
+    <option ></option>
+    <option >EmployeeID</option>
+    <option >EmployeeName</option>
+    <option >Project Team</option>
+    <option >Hr Partner</option>
+    <option>Designation</option>
+    <option>Salary</option>
+    <option>State</option>
+    <option>Team Lead</option>
+    <option>Experience</option>
+    <option>Gender</option>
+   
+</select>
+For:   
+<input type="text" name="textvalue" required/>
+<input type="hidden" id = "selectedvalue" name="selectedvalue" />
+<input type="submit" name="SearchSubmit" value="Search">
+</form> 
+<div class="Emp"><h1> @ViewBag.employees</h1></div>
+
+<script type = "text/javascript">
+    function selectValue(searchtype) {
+        var selectedText = searchtype.options[searchtype.selectedIndex].innerHTML;
+        document.getElementById("selectedvalue").value = selectedText;
+    }
+</script>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="sortable @ViewBag.UserNameSort"><a href="@Url.Action("Index", new { sortOrder = ViewBag.UserNameSort })">UserName<span></span></a></th>
+        <th class="sortable @ViewBag.ItemNameSort"><a href="@Url.Action("Index", new { sortOrder = ViewBag.ItemNameSort })">ItemName<span></span></a></th>
+        <th>Quantity</th>
+        <th>ItemPrice</th>
+        <th>Total</th>
+        <th>Location</th>
+        <th>Date and Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      @foreach(var adminorders in Model) {
+        <tr>
+          <td>@adminorders.UserName</td>
+          <td>@adminorders.ItemName</td>
+          <td>@adminorders.Quantity</td>
+          <td>@adminorders.ItemPrice</td>
+          <td>@adminorders.Total</td>
+          <td>@adminorders.Location</td>
+          <td>@adminorders.DateTime</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+  
+  @if (!string.IsNullOrEmpty(ViewBag.SortBy))
+  {
+    <p>Showing orders sorted by @ViewBag.SortBy:</p>
+  }
+</body>
+</html> *@
+
+
+

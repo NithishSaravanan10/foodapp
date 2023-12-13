@@ -1,0 +1,41 @@
+
+
+<partial name="UserLayout" />
+
+@* <h1>Welcome to the home page.you can order now</h1> *@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <link rel="stylesheet" href="~/css/selectfood.css" asp-append-version="true">
+  <div class="small-container1">
+    <div class="row">
+      <div class="col">
+        <img src="../Images/northi.jpg" alt="Workplace" usemap="#workmap" width="300" height="300">
+        <map name="workmap">
+          <area shape="default" alt="Computer" href="foodPage">
+          <h1 class="ni">North Indian</h1>
+        </map>
+      </div>
+      <div class="col">
+        <img src="../Images/des.jpg" alt="Workplace" usemap="#workmap" width="300" height="300">
+        <map name="workmap">
+          <area shape="default" alt="Computer" href="foodPage">
+          <h1 class="ni">Desserts</h1>
+          <a asp-action="foodPage" asp-controller="Home">Desserts</a>
+        </map>
+      </div>
+      <div class="col">
+        <img src="../Images/southi.jpg" alt="Workplace" usemap="#workmap" width="300" height="300">
+        <map name="workmap">
+          <area shape="default" alt="Computer" href="foodPage">
+          <h1 class="ni">South Indian</h1>
+        </map>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

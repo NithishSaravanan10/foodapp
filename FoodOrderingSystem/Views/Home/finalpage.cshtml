@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Your Food Is Preparing</title>
+	<link rel="stylesheet" href="~/css/final.css" aspend-versp-apion="true">
+</head>
+<body>
+	<div class="container">
+		<h1>Your Food Is Preparing</h1>
+		<p>Please wait while we prepare your delicious meal!</p>
+		<div class="spinner"></div><br><br>
+		<div id="timer"></div>
+		<script>
+			var seconds = 10;
+			function timer() {
+				var minutes = Math.floor(seconds / 60);
+				var remainingSeconds = seconds % 60;
+				if (remainingSeconds < 10) {
+					remainingSeconds = "0" + remainingSeconds;
+				}
+				document.getElementById('timer').innerHTML = "Estimated time for your delivery: " + minutes + ":" + remainingSeconds;
+				if (seconds == 0) {
+					clearInterval(countdownTimer);
+					window.location.href = '@Url.Action("OrderReady", "Home")'; // Redirect to new page
+				} else {
+					seconds--;
+				}
+			}
+			var countdownTimer = setInterval('timer()', 1000);
+		</script>
+		<br><br>
+		<a asp-action="foodpage" asp-controller="Home" class="btn btn-warning">Buy Again</a>
+	</div>
+</body>
+</html>

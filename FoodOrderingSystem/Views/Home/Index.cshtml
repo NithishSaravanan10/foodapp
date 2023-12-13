@@ -1,0 +1,63 @@
+﻿
+
+<partial name="UserLayout" />
+  
+ <img align="right"  src="../Images/home.png" style="margin-top:17%;width:450px;height:400px;" alt=""> 
+ 
+
+	 <link rel="stylesheet" href="~/css/home.css" aspend-versp-apion="true">
+
+
+<div class="discount-offer">
+  <p class="offer-text">New users get 10% off!</p>
+  <p>Sign up now and enjoy a discount on your first order. Don't miss out!</p>
+  <a asp-action="Registeration"; asp-controller="Home"><button class="cta-button" >Sign up now</button></a>
+</div>
+<br>
+
+
+
+<p style="font-size:1.5rem;font-weight:bolder;font-style:italic;margin-top:1rem;padding-left:2rem" id="display"></p>
+
+
+
+<div class="catchy-messages">
+
+ <div class="message" style="margin-left:2rem;">
+    <h2>Order from your favorite restaurants</h2>
+    <p>"Hungry? Let us handle it. Order your favorite meal from our restaurant with just a few taps."</p>
+  </div>
+
+  <div class="message" style="margin-right:7rem;" >
+    <h2>Don't feel like cooking?</h2>
+<p> No problem. Order your favorite dish and relax while we take care of the rest.</p>  </div> 
+</div>
+
+
+
+
+<script>
+    var display = document.getElementById("display");
+    var displayContent = "Hungry? Let us handle it. Order your favorite meal from our restaurant with just a few taps.";
+    var speed = 30;
+
+    var i = 0;
+    function autoWrite(){
+       if(i < displayContent.length){
+            display.innerHTML += displayContent.charAt(i);
+            i++;
+            setTimeout(autoWrite,50);
+       }
+    }
+
+    window.onload = autoWrite;
+
+</script>
+
+
+
+
+
+
+
+

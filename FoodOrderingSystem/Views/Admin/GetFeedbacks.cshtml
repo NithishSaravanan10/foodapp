@@ -1,0 +1,40 @@
+@model IEnumerable<FoodOrderingSystem.Models.FeedBack>
+@using System.Data
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <partial name="AdminLayout" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="~/css/table.css" asp-append-version="true">
+    <h1 class="tablehead">Feedbacks</h1>
+  <table style="width:100%" class="table">
+    <tr>
+      <th>UserName</th>
+      <th>Email</th>
+      <th>Rating</th>
+      <th>Message</th>
+    </tr>
+ @{
+      foreach(var feedback1 in Model){
+
+    <tr>
+        <td>@feedback1.UserName</td>
+        <td>@feedback1.EMail</td>
+        <td>@feedback1.Rating</td>
+        <td>@feedback1.Message</td>
+        </tr>
+    }
+ }
+  </table>
+
+    
+</body>
+</html>
+
+
