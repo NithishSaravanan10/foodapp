@@ -15,7 +15,7 @@ public class DatabaseConnection
 
         if (message == "ok")
         {
-            using (SqlConnection userConnection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+            using (SqlConnection userConnection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
             {
                 userConnection.Open();
                 SqlCommand insertcommand = new SqlCommand($"insert into FoodApp1 (UserName,Password,Email,MobileNumber) values ('{user.UserName}','{user.Password}','{user.Email}','{user.MobileNumber}')", userConnection);
@@ -36,7 +36,7 @@ public class DatabaseConnection
         string message = FeedBackValidation(user);
         if (message == "ok")
         {
-            using (SqlConnection userConnection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+            using (SqlConnection userConnection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
             {
                 userConnection.Open();
                 SqlCommand insertcommand = new SqlCommand($"insert into Feedback (UserName,EMail,Rating,Message) values ('{user.UserName}','{user.EMail}','{user.Rating}','{user.Message}')", userConnection);
@@ -126,7 +126,7 @@ public class DatabaseConnection
     public string loginValidation(LoginUser loginuser)
     {
         string info = "";
-        using (SqlConnection userConnection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection userConnection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             userConnection.Open();
             SqlCommand sqlCommand = new SqlCommand("select Password from FoodApp1 where UserName = '" + loginuser.UserName + "';", userConnection);
@@ -164,7 +164,7 @@ public class DatabaseConnection
 
     public static DataTable getMenu()
     {
-        SqlConnection connection = new SqlConnection("Data Source=ASPIRE1791\\SQLEXPRESS;Initial Catalog=FoodApp;Integrated Security=SSPI");
+        SqlConnection connection = new SqlConnection("Data Source=ASPLAP1825\\SQLEXPRESS;Initial Catalog=FoodApp;Integrated Security=SSPI");
         DataTable dataTable1 = new DataTable();
         try
         {
@@ -206,7 +206,7 @@ public class DatabaseConnection
 
     public bool AddToCart(string ItemName, string ItemPrice, string Username)
     {
-        using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             try
@@ -235,7 +235,7 @@ public class DatabaseConnection
     {
         List<Cart> details = new List<Cart>();
 
-        using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             SqlCommand search = new SqlCommand("select * from CartDetails where UserName = @name", connection);
@@ -262,7 +262,7 @@ public class DatabaseConnection
 
 
     public void DeleteCartItemsByName(string name){
-         using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+         using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             SqlCommand search = new SqlCommand("delete from CartDetails where UserName = @name", connection);
@@ -280,7 +280,7 @@ public class DatabaseConnection
 
     public void DeleteCart(string ItemName)
     {
-        using (SqlConnection connection = new SqlConnection("Data source = Aspire1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             SqlCommand deletecommand = new SqlCommand("delete from CartDetails where ItemName=@item", connection);
@@ -305,7 +305,7 @@ public class DatabaseConnection
             Quantity -= 1;
         }
 
-        using (SqlConnection connection = new SqlConnection("Data source = Aspire1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             SqlCommand updatecommand = new SqlCommand($"update CartDetails set Quantity='{Quantity}' where UserName='{username}' and ItemName='{ItemName}'",connection);
@@ -316,7 +316,7 @@ public class DatabaseConnection
 
    public int ApplyCoupon(string CouponCode,string UserName,int total)
     {
-         SqlConnection connection = new SqlConnection("Data Source=  Aspire1791\\SQLEXPRESS;Initial Catalog=FoodApp;Integrated Security=SSPI");
+         SqlConnection connection = new SqlConnection("Data Source=  ASPLAP1825\\SQLEXPRESS;Initial Catalog=FoodApp;Integrated Security=SSPI");
          connection.Open();
          SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM OrderHistory WHERE UserName = @UserName", connection);
          cmd.Parameters.AddWithValue("@UserName", UserName); 
@@ -342,7 +342,7 @@ public class DatabaseConnection
 
     public static DataTable FetchQuantity()
     {
-        SqlConnection connection = new SqlConnection("Data Source=ASPIRE1791\\SQLEXPRESS;Initial Catalog=FoodApp;Integrated Security=SSPI");
+        SqlConnection connection = new SqlConnection("Data Source=ASPLAP1825\\SQLEXPRESS;Initial Catalog=FoodApp;Integrated Security=SSPI");
         DataTable quantityDataTable = new DataTable();
         SqlCommand fetchcommand = new SqlCommand($"select * from CartDetails", connection);
         SqlDataAdapter dataadapter1 = new SqlDataAdapter(fetchcommand);
@@ -356,7 +356,7 @@ public class DatabaseConnection
             {
             List<FeedBack> feedback=new List<FeedBack>();
 
-            using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+            using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
                 {
                     connection.Open();
                     
@@ -380,7 +380,7 @@ public class DatabaseConnection
             {
             List<RegisteredUsers> userdetails=new List<RegisteredUsers>();
 
-            using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+            using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
                 {
                     connection.Open();
                     
@@ -406,7 +406,7 @@ public class DatabaseConnection
             {
             List<AdminOrders> adminOrderHistory=new List<AdminOrders>();
 
-            using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+            using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
                 {
                     connection.Open();
                     
@@ -436,7 +436,7 @@ public class DatabaseConnection
     {
     List<OrderHistory> history=new List<OrderHistory>();
 
-    using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+    using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             
@@ -463,7 +463,7 @@ public class DatabaseConnection
     //Adding OrderId to Database
     public void addOrderId(string name,string orderId){
         Console.WriteLine("--------------------------");
-         using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+         using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             SqlCommand insert = new SqlCommand("insert into Orders values(@name,@id)",connection);
@@ -478,7 +478,7 @@ public class DatabaseConnection
     public IEnumerable<Orders> FetchOrders(){
         List<Orders> orders=new List<Orders>();
 
-        using (SqlConnection connection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection connection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
         {
             connection.Open();
             
@@ -499,7 +499,7 @@ public class DatabaseConnection
 
     public void AddItem(AddItems items)
     {
-        using (SqlConnection userConnection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection userConnection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
              {
                 userConnection.Open();
                 SqlCommand addcommand = new SqlCommand($"insert into Menu (ItemName,ItemPrice,Category,ItemImage) values ('{items.ItemName}','{items.ItemPrice}','{items.Category}','{items.ItemImage}')", userConnection);
@@ -513,7 +513,7 @@ public class DatabaseConnection
 
     public void DeleteItem(string ItemName)
     {
-        using (SqlConnection userConnection = new SqlConnection("Data source =ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection userConnection = new SqlConnection("Data source =ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
              {
                 userConnection.Open();
                 SqlCommand deletecommand = new SqlCommand($"DELETE From Menu WHERE ItemName=@ItemName", userConnection);
@@ -524,7 +524,7 @@ public class DatabaseConnection
 
      public void UpdateItem(string ItemName,string ItemPrice,string ItemImage)
     {
-        using (SqlConnection userConnection = new SqlConnection("Data source = ASPIRE1791\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
+        using (SqlConnection userConnection = new SqlConnection("Data source = ASPLAP1825\\SQLEXPRESS; Database=FoodApp; Integrated security = SSPI;"))
              {
                 userConnection.Open();
                  SqlCommand updatecommand = new SqlCommand($"UPDATE Menu SET ItemPrice=@ItemPrice,ItemImage=@ItemImage WHERE  ItemName=@ItemName", userConnection);

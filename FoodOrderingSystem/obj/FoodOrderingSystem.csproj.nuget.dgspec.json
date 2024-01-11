@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\c data\\New folder\\Downloads\\Food App (5)\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {}
+    "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {}
   },
   "projects": {
-    "E:\\c data\\New folder\\Downloads\\Food App (5)\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {
+    "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\FoodOrderingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\c data\\New folder\\Downloads\\Food App (5)\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
         "projectName": "FoodOrderingSystem",
-        "projectPath": "E:\\c data\\New folder\\Downloads\\Food App (5)\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\c data\\New folder\\Downloads\\Food App (5)\\FoodOrderingSystem\\obj\\",
+        "projectPath": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\FoodOrderingSystem.csproj",
+        "packagesPath": "C:\\Users\\nithish.saravanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nithish.saravanan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

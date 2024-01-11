@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FoodOrderingSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FoodOrderingSystem.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\1.png",
+      "PackagePath": "staticwebassets\\Images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\123.png",
+      "PackagePath": "staticwebassets\\Images\\123.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\alooc.jpg",
+      "PackagePath": "staticwebassets\\Images\\alooc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\aloop.jpg",
+      "PackagePath": "staticwebassets\\Images\\aloop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\brownie.jpg",
+      "PackagePath": "staticwebassets\\Images\\brownie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\burger.jpg",
+      "PackagePath": "staticwebassets\\Images\\burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\butter.jpg",
+      "PackagePath": "staticwebassets\\Images\\butter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\butter1.jpg",
+      "PackagePath": "staticwebassets\\Images\\butter1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\butternaan.jpg",
+      "PackagePath": "staticwebassets\\Images\\butternaan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\butters.jpg",
+      "PackagePath": "staticwebassets\\Images\\butters.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\cards.png",
+      "PackagePath": "staticwebassets\\Images\\cards.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\chicken.jpg",
+      "PackagePath": "staticwebassets\\Images\\chicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\coffee.jpg",
+      "PackagePath": "staticwebassets\\Images\\coffee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\corn.jpg",
+      "PackagePath": "staticwebassets\\Images\\corn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\curd.jpg",
+      "PackagePath": "staticwebassets\\Images\\curd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\customer.png",
+      "PackagePath": "staticwebassets\\Images\\customer.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\des.jpg",
+      "PackagePath": "staticwebassets\\Images\\des.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\dess.jpg",
+      "PackagePath": "staticwebassets\\Images\\dess.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\dosa.jpg",
+      "PackagePath": "staticwebassets\\Images\\dosa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\dosa.webp",
+      "PackagePath": "staticwebassets\\Images\\dosa.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\fal.jpg",
+      "PackagePath": "staticwebassets\\Images\\fal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\food.jpg",
+      "PackagePath": "staticwebassets\\Images\\food.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\fullmeal.jpg",
+      "PackagePath": "staticwebassets\\Images\\fullmeal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\grape.jpg",
+      "PackagePath": "staticwebassets\\Images\\grape.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\gulab.jpg",
+      "PackagePath": "staticwebassets\\Images\\gulab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\home.png",
+      "PackagePath": "staticwebassets\\Images\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\hp.png",
+      "PackagePath": "staticwebassets\\Images\\hp.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\ice.webp",
+      "PackagePath": "staticwebassets\\Images\\ice.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\icecream.jpg",
+      "PackagePath": "staticwebassets\\Images\\icecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\idli.jpg",
+      "PackagePath": "staticwebassets\\Images\\idli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\idli.webp",
+      "PackagePath": "staticwebassets\\Images\\idli.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\juice.png",
+      "PackagePath": "staticwebassets\\Images\\juice.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\lemon.jpg",
+      "PackagePath": "staticwebassets\\Images\\lemon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\li.jpg",
+      "PackagePath": "staticwebassets\\Images\\li.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\li1.jpg",
+      "PackagePath": "staticwebassets\\Images\\li1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\login.png",
+      "PackagePath": "staticwebassets\\Images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\loginn.png",
+      "PackagePath": "staticwebassets\\Images\\loginn.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\naan.webp",
+      "PackagePath": "staticwebassets\\Images\\naan.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\ni.png",
+      "PackagePath": "staticwebassets\\Images\\ni.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\nit.png",
+      "PackagePath": "staticwebassets\\Images\\nit.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\north.png",
+      "PackagePath": "staticwebassets\\Images\\north.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\northi.jpg",
+      "PackagePath": "staticwebassets\\Images\\northi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\panb.webp",
+      "PackagePath": "staticwebassets\\Images\\panb.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\pansan.jpg",
+      "PackagePath": "staticwebassets\\Images\\pansan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\paya1 - Copy.jpg",
+      "PackagePath": "staticwebassets\\Images\\paya1 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\paya1.jpg",
+      "PackagePath": "staticwebassets\\Images\\paya1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\payasam.jpg",
+      "PackagePath": "staticwebassets\\Images\\payasam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\png-clipart-credit-card-debit-card-plastic-product-credit-card-internet-debit-card.png",
+      "PackagePath": "staticwebassets\\Images\\png-clipart-credit-card-debit-card-plastic-product-credit-card-internet-debit-card.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\png-clipart-logo-brand-payment-product-design-paypal-text-payment.png",
+      "PackagePath": "staticwebassets\\Images\\png-clipart-logo-brand-payment-product-design-paypal-text-payment.png"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\pongal.jpg",
+      "PackagePath": "staticwebassets\\Images\\pongal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\poori.jpg",
+      "PackagePath": "staticwebassets\\Images\\poori.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\rasa.jpg",
+      "PackagePath": "staticwebassets\\Images\\rasa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\rose.jpg",
+      "PackagePath": "staticwebassets\\Images\\rose.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\sam.JPG",
+      "PackagePath": "staticwebassets\\Images\\sam.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\sambar.jpg",
+      "PackagePath": "staticwebassets\\Images\\sambar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\san.webp",
+      "PackagePath": "staticwebassets\\Images\\san.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\sand.jpg",
+      "PackagePath": "staticwebassets\\Images\\sand.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\southi.jpg",
+      "PackagePath": "staticwebassets\\Images\\southi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\tea.jpg",
+      "PackagePath": "staticwebassets\\Images\\tea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\tikka.jpg",
+      "PackagePath": "staticwebassets\\Images\\tikka.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\upma.jpg",
+      "PackagePath": "staticwebassets\\Images\\upma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\vada.jpg",
+      "PackagePath": "staticwebassets\\Images\\vada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\vadapaav.webp",
+      "PackagePath": "staticwebassets\\Images\\vadapaav.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\vadapav.jpg",
+      "PackagePath": "staticwebassets\\Images\\vadapav.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\vegbr.webp",
+      "PackagePath": "staticwebassets\\Images\\vegbr.webp"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\vegs.jpg",
+      "PackagePath": "staticwebassets\\Images\\vegs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\Images\\ven.jpg",
+      "PackagePath": "staticwebassets\\Images\\ven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\adminhome.css",
+      "PackagePath": "staticwebassets\\css\\adminhome.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\coupon.css",
+      "PackagePath": "staticwebassets\\css\\coupon.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\feed.css",
+      "PackagePath": "staticwebassets\\css\\feed.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\final.css",
+      "PackagePath": "staticwebassets\\css\\final.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\managemenu.css",
+      "PackagePath": "staticwebassets\\css\\managemenu.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\orderready.css",
+      "PackagePath": "staticwebassets\\css\\orderready.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\payment.css",
+      "PackagePath": "staticwebassets\\css\\payment.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\table.css",
+      "PackagePath": "staticwebassets\\css\\table.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\table1.css",
+      "PackagePath": "staticwebassets\\css\\table1.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\css\\update.css",
+      "PackagePath": "staticwebassets\\css\\update.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\js\\demo.js",
+      "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nithish.saravanan\\Desktop\\foodapp\\Foodproject\\FoodOrderingSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FoodOrderingSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FoodOrderingSystem.props",
+      "PackagePath": "build\\FoodOrderingSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FoodOrderingSystem.props",
+      "PackagePath": "buildMultiTargeting\\FoodOrderingSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FoodOrderingSystem.props",
+      "PackagePath": "buildTransitive\\FoodOrderingSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
